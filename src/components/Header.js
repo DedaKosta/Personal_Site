@@ -20,7 +20,7 @@ const Header = (props) => {
           Home
         </a>
         <a href="#news" onClick={() => props.onSelect('profile')}>Profile</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact" onClick={() => props.onSelect('message')}>Contact</a>
         <a href="#about">About</a>
         <a href="#aa" className="icon" onClick={toggle}>
           <i className="fa fa-bars"></i>
