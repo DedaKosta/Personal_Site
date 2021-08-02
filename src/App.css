@@ -78,37 +78,6 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 40em) {
-  .root {
-    margin: 0 !important;
-  }
-
-  body {
-    background: #aaa;
-  }
-
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
 .profile-pictures {
   width: 100%;
   height: fit-content;
@@ -930,5 +899,136 @@ body {
 
   .profile-information-names-cont {
     justify-content: center;
+  }
+}
+
+.message-cont {
+  width: 100%;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-cont > * {
+  width: 100%;
+  max-width: 500px;
+}
+
+.message-from-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.title-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.content-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-label {
+  color: #333;
+  font-size: x-large;
+}
+
+.message-from {
+  color: black;
+  font-size: large;
+}
+
+.message-title {
+  color: black;
+  font-size: large;
+}
+
+.message-content {
+  color: black;
+  font-size: larger;
+  min-height: 20vh;
+  height: max-content;
+}
+
+.message-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.cancel-button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(207, 19%, 9%);
+  background-color: rgb(235, 35, 35);
+  padding: 0.5em 1.25em;
+  border-radius: 0.25rem;
+  margin-left: 3rem;
+}
+
+.cancel-button:hover,
+.cancel-button:focus {
+  text-decoration: none;
+}
+
+.message-confirm-cont {
+  width: 100%;
+  background: var(--underline-color);
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  gap: 2rem;
+  border-radius: 1%;
+}
+
+.message-sent-heading {
+  color: black;
+  font-size: larger;
+  max-width: 30ch;
+}
+
+@media screen and (max-width: 40em) {
+  .root {
+    margin: 0 !important;
+  }
+
+  body {
+    background: #aaa;
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .message-cont {
+    padding: 2rem;
   }
 }

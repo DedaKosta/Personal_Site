@@ -6,6 +6,7 @@ import Half from './components/Half'
 import Scales from './components/Scales'
 import Projects from './components/Projects'
 import Profile from './components/Profile'
+import Message from './components/Message'
 import HalfPicture1 from './Pictures/Half1.jpg'
 import HalfPicture2 from './Pictures/Half2.jpeg'
 import { useState } from 'react'
@@ -74,8 +75,20 @@ function App() {
             <Header onSelect={selectPage} />
           </section>
           <>
-            <Profile />
+            <Profile onSelect={selectPage} />
           </>
+        </div>
+      );
+    case 'message':
+      return (
+        <div className='App'>
+          <section>
+            <Header onSelect={selectPage} />
+          </section>
+
+          <section>
+            <Message onSelect={selectPage} />
+          </section>
         </div>
       );
     default:

@@ -5,7 +5,7 @@ import ProjectsMenu from './ProjectsMenu'
 import mainPic from '../Pictures/main.png'
 import { useState } from 'react'
 
-const Profile = () => {
+const Profile = (props) => {
 
     const [selectedCategory, setSelectedCategory] = useState('About')
 
@@ -18,7 +18,6 @@ const Profile = () => {
             'About': {
                 'Contact information': {
                     'Phone': '+381 69 174 6655',
-                    'Primary Address': 'Dimitrije Tucovića 30, Pirot, Srbija',
                     'E-mail': 'nikolajovanovic3579@gmail.com',
                     'Site': 'www.nikolajovanovic.com :)'
                 },
@@ -44,8 +43,8 @@ const Profile = () => {
                     <p className='separator-text'>ADDRESS</p>
                 </div>
                 <div className='addresses-cont'>
-                    <Address value='Dimitrije Tucivića 30, Pirot, Srbija' />
-                    <Address value='Nikole Pašića 65/20, Niš, Srbija' />
+                    <Address value='mtikvoglavic@gmail.com' />
+                    <Address value='nikolajovanovic3579@gmail.com' />
                 </div>
                 <div className='separator'>
                     <p className='separator-text'>SKILLS</p>
@@ -67,7 +66,7 @@ const Profile = () => {
                         </div>
                     </div>
                     <div className='profile-contacts-cont'>
-                        <a href='#aaa' className='card-button'>Send Message</a>
+                        <a href='#aaa' className='card-button' onClick={() => props.onSelect('message')}>Send Message</a>
                     </div>
                 </div>
 
