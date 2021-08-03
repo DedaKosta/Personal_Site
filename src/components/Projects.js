@@ -93,7 +93,7 @@ const Projects = () => {
                 <div className={curClass}>
                     {
                         keys.map((key) => (
-                            <ProjectsMenu name={key} onSelect={setCategory} />
+                            <ProjectsMenu key={key} name={key} onSelect={setCategory} />
                         ))
                     }
                     <div className="icon" onClick={toggle}>
@@ -105,7 +105,7 @@ const Projects = () => {
             <div className='projects-list'>
                 {
                     Object.keys(projects[selectedCategory]).map((project_key) => (
-                        <div className='project' >
+                        <div className='project' key={project_key}>
                             <div className='project-name-cont'>
                                 <p className='project-name'>{project_key}</p>
                             </div>

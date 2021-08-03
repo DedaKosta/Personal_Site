@@ -33,15 +33,15 @@ const Message = (props) => {
         <div className='message-cont'>
             <form onSubmit={(e) => sendMessage(e)}>
                 <div className='message-from-cont'>
-                    <label for='from_name' className='message-label'>From:</label>
+                    <label htmlFor='from_name' className='message-label'>From (Email):</label>
                     <input className='message-from' type='text' name='from_name' />
                 </div>
                 <div className='title-cont'>
-                    <label for='title' className='message-label'>Title:</label>
+                    <label htmlFor='title' className='message-label'>Title:</label>
                     <input className='message-title' type='text' name='title' />
                 </div>
                 <div className='content-cont'>
-                    <label for='content' className='message-label'>Message:</label>
+                    <label htmlFor='content' className='message-label'>Message:</label>
                     <textarea className='message-content' name='message' />
                 </div>
                 <div className='message-buttons'>

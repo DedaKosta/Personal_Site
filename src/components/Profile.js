@@ -66,7 +66,7 @@ const Profile = (props) => {
                         </div>
                     </div>
                     <div className='profile-contacts-cont'>
-                        <a href='#aaa' className='card-button' onClick={() => props.onSelect('message')}>Send Message</a>
+                        <a href='#contact' className='card-button' onClick={() => props.onSelect('message')}>Send Message</a>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@ const Profile = (props) => {
                     <div className='profile-information-names-cont'>
                         {
                             Object.keys(information).map((key) => (
-                                <ProjectsMenu name={key} onSelect={setCategory} />
+                                <ProjectsMenu key={key} name={key} onSelect={setCategory} />
                             ))
                         }
                     </div>

@@ -19,12 +19,15 @@ const Header = (props) => {
         <a href="#home" className="active" onClick={() => props.onSelect('main')}>
           Home
         </a>
-        <a href="#news" onClick={() => props.onSelect('profile')}>Profile</a>
+        <a href="#profile" onClick={() => props.onSelect('profile')}>Profile</a>
         <a href="#contact" onClick={() => props.onSelect('message')}>Contact</a>
         <a href="#about">About</a>
-        <a href="#aa" className="icon" onClick={toggle}>
-          <i className="fa fa-bars"></i>
-        </a>
+        {
+          // eslint-disable-next-line jsx-a11y/anchor-is-valid
+          <a className="icon" onClick={toggle}>
+            <i className="fa fa-bars"></i>
+          </a>
+        }
       </div>
     </>
   );
