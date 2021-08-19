@@ -19,7 +19,7 @@ const Projects = () => {
                     'description': 'An app for viewing all dota2 heroes and their basic stats. (Individual work)'
                 },
                 'Password Generator': {
-                    'link': '',
+                    'link': 'https://github.com/DedaKosta/Password_Generator',
                     'description': 'A simple password generator application using Node.js. (Individual work)'
                 }
             },
