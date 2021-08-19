@@ -12,61 +12,69 @@ const Projects = () => {
             'Vanilla Web Apps': {
                 'Sudoku App': {
                     'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                    'description': 'A simple sudoku application. (Individual work)'
                 },
                 'Dota App': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                    'link': 'https://github.com/DedaKosta/Dota_App',
+                    'description': 'An app for viewing all dota2 heroes and their basic stats. (Individual work)'
                 }
             },
             'React Apps': {
                 'Calendar App': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                    'link': 'https://github.com/DedaKosta/Calendar_App',
+                    'description': 'A simple task app. (Individual work)'
                 },
                 'Dota App': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                    'link': 'https://github.com/DedaKosta/Dota_App_React',
+                    'description': 'Rewritten vanilla dota app using react. (Individual work)'
                 },
                 'Games App': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                    'link': 'https://github.com/DedaKosta/Games_App',
+                    'description': 'A games schedule app. (Individual work)'
+                },
+                'Lucky Six': {
+                    'link': 'https://github.com/DedaKosta/Lucky_Six',
+                    'description': 'Maxbet lucky six game app. (Individual work)'
                 }
             },
-            'C# Projects': {
-                'Project 1': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+            '.NET Projects': {
+                'Lako do Stana (SQL)': {
+                    'link': 'https://github.com/DedaKosta/Lako_Do_Stana_SQL',
+                    'description': 'A complex project for searching apartments and roommates using SQL database. (Work in team)'
                 },
-                'Project 2': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Lako do stana (MongoDB)': {
+                    'link': 'https://github.com/DedaKosta/Lako_Do_Stana_MongoDB',
+                    'description': 'A complex project for searching apartments and roommates using MOngoDB database. (Work in team)'
                 },
-                'Project 3': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Score Mania': {
+                    'link': 'https://github.com/DedaKosta/ScoreMania',
+                    'description': 'Application for games results and schedule. using Neo4J database. (Work in team)'
+                },
+                'Tickets4You': {
+                    'link': 'https://github.com/DedaKosta/Tickets4You',
+                    'description': 'An application for reservations using Cassandra database. (Work in team)'
                 }
             },
             'Python Projects': {
-                'Project 1': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Shape Detector': {
+                    'link': 'https://github.com/DedaKosta/Shape_Detector',
+                    'description': 'Application for detecting shapes on a picture. (Individual work)'
                 },
-                'Project 2': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Panorama App': {
+                    'link': 'https://github.com/DedaKosta/Panorama_App',
+                    'description': 'An application for making a panoramic image from set of images. (Individual work)'
                 },
-                'Project 3': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Face Detector App': {
+                    'Face Detector App': 'https://github.com/DedaKosta/Face_Detectior_Python',
+                    'description': 'An application for detecting facial features. (Individual work)'
                 },
-                'Project 4': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Animals Detector App': {
+                    'link': 'https://github.com/DedaKosta/Animals_Detector_Python',
+                    'description': 'An application for detection animals on a picture with sliding window technique. (Individual work)'
                 },
-                'Project 5': {
-                    'link': 'https://github.com/DedaKosta/Sudoku_App',
-                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptas, nihil quasi harum, consequatur, molestiae animi a laboriosam nisi saepe doloribus officia.'
+                'Aruco Detector': {
+                    'link': 'https://github.com/DedaKosta/Aruco_Detector',
+                    'description': 'Application for detecting aruco shapes and their labeling. (Individual work)'
                 }
             }
         })

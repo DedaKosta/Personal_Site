@@ -5,10 +5,12 @@ const Scales = () => {
 
     const [skills] = useState(
         {
-            'Scale 1': '9',
-            'Scale 2': '7',
-            'Scale 3': '8',
-            'Scale 4': '10'
+            'HTML': '9',
+            'CSS': '7',
+            'JavaScript': '8',
+            'React.js': '6',
+            '.NET': '6',
+            'Python': '4'
         })
 
     const keys = Object.keys(skills)

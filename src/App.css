@@ -34,6 +34,17 @@ body {
   line-height: 1.6;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+  background-color: #00000033;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #5c5c5c;
+}
+
 #root {
   margin: auto 5rem;
   min-height: inherit;
@@ -130,7 +141,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 15%;
+  gap: 5%;
   margin-top: -7.5%;
   margin-left: 5%;
   position: relative;

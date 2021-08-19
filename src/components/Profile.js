@@ -40,11 +40,12 @@ const Profile = (props) => {
                     <img src={mainPic} alt='profile_picture' />
                 </div>
                 <div className='separator'>
-                    <p className='separator-text'>ADDRESS</p>
+                    <p className='separator-text'>ADDRESSES</p>
                 </div>
                 <div className='addresses-cont'>
                     <Address value='mtikvoglavic@gmail.com' />
                     <Address value='nikolajovanovic3579@gmail.com' />
+                    <Address value='nikolajovanovic2468@gmail.com' />
                 </div>
                 <div className='separator'>
                     <p className='separator-text'>SKILLS</p>
